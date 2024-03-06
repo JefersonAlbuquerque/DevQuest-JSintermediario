@@ -1,0 +1,7 @@
+@media (max-width: 800px) {
+    main{
+        flex-direction: column;
+        width: 380px;
+        height: 600px;
+    }
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio JavaScript Intermediário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Roboto:wght@400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/resposive.css">
+</head>
+
+<body>
+    <main>
+        <section class="informativo">
+            <p class="duvidas">FICOU COM DÚVIDA? <br>NOS MANDE UMA MENSAGEM!</p>
+            <p class="infomacao">caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+        </section>
+        <section class="formulario">
+            <ul>
+                <li class="campo">
+                    <input type="text" name="nome" id="nome" placeholder="Nome Completo *">
+                    <p class="campo-vazio">Campo Obrigatorio</p>
+                </li>
+                <li class="campo">
+                    <input type="text" name="email" id="email" placeholder="Email *">
+                    <p class="campo-vazio">Campo Obrigatorio</p>
+                <li class="campo">
+                    <input type="text" name="telefone" id="telefone" placeholder="Telefone *">
+                    <p class="campo-vazio">Campo Obrigatorio</p>
+                </li>
+                <li class="campo">
+                    <textarea name="mensagem" id="mensagem" placeholder="Mensagem *" cols="30" rows="10"></textarea>
+                    <p class="campo-vazio">Campo Obrigatorio</p>
+                </li>
+            </ul>
+            <p class="referencia">* campos obrigatorios</p>
+            <button type="button" class="btn">Enviar</button>
+        </section>
+    </main>
+    <script src="./src/js/index.js"></script>
+</body>
+
+</html>
